@@ -10,7 +10,7 @@ extern class MovieClip extends Sprite
 	
 	public var textures:Array<Texture>;
 	public var currentFrame:Int;
-	public var animationSpeed:Int;
+	public var animationSpeed:Float;
 	public var playing:Bool;
 	
 	public function stop():Void;
